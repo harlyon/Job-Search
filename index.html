@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Remote Dev Jobs</title>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link type="image/png" href="images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="simplepagination.css">
+</head>
+
+<body>
+    <header>
+        <div class="overlay">
+            <video class="header-video" autoplay loop poster="images/bg.png">
+                <img src="images/bg.png" type="video/mp4">
+            </video>
+            <div class="flex-container">
+                <!----<img src="images/laptop.svg" alt="laptop icon" class="laptop-svg">---->
+                <h1>REMOTE DEV JOBS</h1>
+                <h2>Check for available jobs</h2>
+                <form action="" class="form-container1" id="first-search">
+                    <input type="text" id="search-query" name="search-query" placeholder="e.g. Front-end" required>
+                    <select name="example" placeholder="Select a country" id="search-country">
+                        <option value="us">Select</option>
+                        <option disabled id="divide">──────────────────</option>
+                        <option value="ar">Argentina</option>
+                        <option value="au">Australia</option>
+                        <option value="at">Austria</option>
+                        <option value="bh">Bahrain</option>
+                        <option value="be">Belgium</option>
+                        <option value="br">Brazil</option>
+						<option value="ca">Canada</option>
+                        <option value="cl">Chile</option>
+                        <option value="cn">China</option>
+                        <option value="co">Columbia</option>
+                        <option value="cz">Czech Republic</option>
+                        <option value="dk">Denmark</option>
+                        <option value="fi">Finland</option>
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                        <option value="gr">Greece</option>
+                        <option value="hk">Hong Kong</option>
+                        <option value="hu">Hungary</option>
+                        <option value="in">India</option>
+                        <option value="id">Indonesia</option>
+                        <option value="ie">Ireland</option>
+                        <option value="il">Israel</option>
+                        <option value="it">Italy</option>
+                        <option value="jp">Japan</option>
+                        <option value="kr">Korea</option>
+                        <option value="kw">Kuwait</option>
+                        <option value="lu">Luxembourg</option>
+                        <option value="my">Malaysia</option>
+                        <option value="mx">Mexico</option>
+                        <option value="nl">Netherlands</option>
+                        <option value="nz">New Zealand</option>
+                        <option value="no">Norway</option>
+                        <option value="om">Oman</option>
+                        <option value="pk">Pakistan</option>
+                        <option value="pe">Peru</option>
+                        <option value="ph">Philippines</option>
+                        <option value="pl">Poland</option>
+                        <option value="pt">Portugal</option>
+                        <option value="qa">Qatar</option>
+                        <option value="ro">Romania</option>
+                        <option value="ru">Russia</option>
+                        <option value="sa">Saudi Arabia</option>
+                        <option value="sg">Singapore</option>
+                        <option value="za">South Africa</option>
+                        <option value="es">Spain</option>
+                        <option value="se">Sweden</option>
+                        <option value="ch">Switzerland</option>
+                        <option value="tw">Taiwan</option>
+                        <option value="tr">Turkey</option>
+						<option value="us">United States</option>
+                        <option value="ae">United Arab Emerates</option>
+                        <option value="gb">United Kingdom</option>
+                        <option value="ve">Venezuela</option>
+                    </select>
+                    <input type="submit" id="submit" value="SEARCH">
+                    <button class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+                <div class="ad-blocker">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <div class="nav-logo">
+                <!--<img src="images/laptop-nav.svg" alt="laptop icon">--->
+                <div class="nav-text">
+                    <h2>Remote</h2>
+                    <h3>Dev Jobs</h3>
+                </div>
+            </div>
+            <form action="" class="form-container" id="second-search">
+                <input type="text" id="second-search-query" name="search-query" placeholder="e.g. Rails" required>
+                <select name="example" placeholder="Select a country" id="second-search-country">
+                    <option value="us">Select</option>
+                        <option disabled id="divide">──────────────────</option>
+                        <option value="ar">Argentina</option>
+                        <option value="au">Australia</option>
+                        <option value="at">Austria</option>
+                        <option value="bh">Bahrain</option>
+                        <option value="be">Belgium</option>
+                        <option value="br">Brazil</option>
+						<option value="ca">Canada</option>
+                        <option value="cl">Chile</option>
+                        <option value="cn">China</option>
+                        <option value="co">Columbia</option>
+                        <option value="cz">Czech Republic</option>
+                        <option value="dk">Denmark</option>
+                        <option value="fi">Finland</option>
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                        <option value="gr">Greece</option>
+                        <option value="hk">Hong Kong</option>
+                        <option value="hu">Hungary</option>
+                        <option value="in">India</option>
+                        <option value="id">Indonesia</option>
+                        <option value="ie">Ireland</option>
+                        <option value="il">Israel</option>
+                        <option value="it">Italy</option>
+                        <option value="jp">Japan</option>
+                        <option value="kr">Korea</option>
+                        <option value="kw">Kuwait</option>
+                        <option value="lu">Luxembourg</option>
+                        <option value="my">Malaysia</option>
+                        <option value="mx">Mexico</option>
+                        <option value="nl">Netherlands</option>
+                        <option value="nz">New Zealand</option>
+                        <option value="no">Norway</option>
+                        <option value="om">Oman</option>
+                        <option value="pk">Pakistan</option>
+                        <option value="pe">Peru</option>
+                        <option value="ph">Philippines</option>
+                        <option value="pl">Poland</option>
+                        <option value="pt">Portugal</option>
+                        <option value="qa">Qatar</option>
+                        <option value="ro">Romania</option>
+                        <option value="ru">Russia</option>
+                        <option value="sa">Saudi Arabia</option>
+                        <option value="sg">Singapore</option>
+                        <option value="za">South Africa</option>
+                        <option value="es">Spain</option>
+                        <option value="se">Sweden</option>
+                        <option value="ch">Switzerland</option>
+                        <option value="tw">Taiwan</option>
+                        <option value="tr">Turkey</option>
+						<option value="us">United States</option>
+                        <option value="ae">United Arab Emerates</option>
+                        <option value="gb">United Kingdom</option>
+                        <option value="ve">Venezuela</option>
+                </select>
+                <input type="submit" id="second-submit" value="SEARCH">
+                <button class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </nav>
+        <div class="second-nav">
+            <p>Sort By: <a href="#" class="relevance">Relevance</a> | <a href="#" class="date">Date</a></p>
+        </div>
+        <div class="wrapper">
+            
+            <section id="results" class="results">
+            </section>
+            <div class="pagination">
+            </div>
+        </div>
+        <footer>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="jquery.simplepagination.js"></script>
+    <script src="apps.js"></script>
+</body>
+
+</html>
