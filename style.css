@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins');
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
@@ -137,7 +139,7 @@ html {
   line-height: 1.357; }
 
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: 'Poppins', sans-serif; }
 
 h1, h2, h3, h4, h5, p, li {
   margin: 0;
@@ -186,7 +188,7 @@ header {
     justify-content: center;
     align-items: center; }
   header h2 {
-    font-family: "Droid Sans Mono";
+    font-family: 'Montserrat', sans-serif;
     color: #F3F3F3;
     letter-spacing: -1px;
     margin-bottom: 20px; }
@@ -361,7 +363,7 @@ section.results {
     padding-bottom: 10px;
   }
   section.results h4 {
-    font-family: "Droid Sans Mono";
+    font-family: 'Montserrat', sans-serif;
     color: #A8B8B8; }
   section.results p {
     font-size: 1.8rem;
